@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz Futebol</title>
+    <script src="js/funcoesQuiz.js"></script>
+	    <link href="css/estiloPagina.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body background = "img\fundo1.jpg">
+
+	  
+ <img src = "img\btn_start.png" id="btnIniciar" onclick="proximaPergunta()" style="cursor: pointer">
+	   
+	   
+ <font color = "white"><div id="resultado" hidden></div>
+		<div id="principal" hidden>
+        <div id="pergunta"></div>
+        <br><div id="resposta0" class="respostas" onclick="selecionarResposta(this)"></div><br/>
+        <div id="resposta1" class="respostas" onclick="selecionarResposta(this)"></div><br/>
+        <div id="resposta2" class="respostas" onclick="selecionarResposta(this)"></div><br/>
+        <div id="resposta3" class="respostas" onclick="selecionarResposta(this)"></div><br/></font>
+        <button id="btnResponder" hidden onclick="responder()">RESPONDER</button>
+        <button id="btnProxima" hidden onclick="proximaPergunta()">PRÓXIMA PERGUNTA</button>
+		
+		 <button id="btnSair" hidden onclick="sair()">Sair</button>
+    </div>
+</body>
+</html>

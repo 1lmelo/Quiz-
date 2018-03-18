@@ -1,0 +1,95 @@
+﻿body {
+background-image: url("\img\fundo1.jpg")>;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+
+body {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+body {
+	background-size: cover;
+}
+
+.respostas {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+.respostaSelecionada {
+    background-color: aqua;
+    color: red;
+}
+.respostaCorreta {
+    background-color: green;
+    color: white;
+}
+.respostaErrada {
+    background-color: red;
+    color: white;
+}
+
+#resultado {
+	margin: 0;
+    position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 32px;
+	font:Comic Sans MS;
+	
+}
+
+#btnIniciar {
+    text-align: center;
+	position: absolute;
+	max-width:200px;
+    max-height:150px;
+	width: auto;
+	height: auto;
+	left: 60%;
+	top: 70%
+
+}
+
+#principal{
+	margin: 0;
+    position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 25px;
+	font:Comic Sans MS;
+
+}
+
+#btnResponder {
+	
+	background-color: #FF0000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	border-radius: 50%;	
+}
+
+#btnProxima {
+	
+	background-color: #FF0000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	border-radius: 50%;	
+}
+
